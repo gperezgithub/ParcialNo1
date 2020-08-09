@@ -1,0 +1,132 @@
+/*Responsive para titulo animado*/
+@media (max-width:1195px){
+ 
+.tituloAnimado{
+   
+    width:100%;    
+    font-size:30px;
+   
+}
+
+}
+
+/*Responsive para titulo animado #2*/
+@media (max-width:996px){
+ 
+    .tituloAnimado{
+       
+        
+        font-size:20px;
+       
+    }
+    
+}
+
+
+/*Responsive para titulo animado #3*/
+@media (max-width:822px){
+ 
+    #logoUmg{
+        width:370px;
+        height:105px;
+        justify-content:center;
+        float:none;
+        border-right:none;
+      
+    }
+
+    #cinta{
+        background-color: #7c587f;/*Buscar color bonito*/        
+        height:200px;
+        padding-left:none;
+        
+    }
+
+    #caratula{
+      margin-left:0;
+      padding-left:0;
+    }
+
+    .tituloAnimado{
+       margin-left:-40px;
+       padding-left:none;
+       font-style:bold;
+       
+    }
+
+    
+.tituloAnimado>ul{
+    list-style:none;
+    padding-left:0;
+    
+}
+
+#BarraLateral{
+    
+    width: 40%;
+  
+ 
+ 
+
+}
+
+}
+
+/******************RESPONSIVE PARA EL MENU******************/
+@media (max-width:620px){
+    .Menu{   
+        width:100%;   
+        background-color:#051126;    
+        font-size: 10px;
+        box-shadow: 0px 4px 10px rgba(148, 231, 231, 0.986);
+        
+    
+    }
+
+    
+.Menu ul{    
+   
+    padding:0;
+    margin: 0 10px 0 0;
+ 
+}
+
+.Menu >ul >li{
+    padding:15px;
+    border-left: 2px solid #fff;
+    transition:600ms;
+    border-right:2px solid #fff;
+    
+}
+}
+
+/******************RESPONSIVE BARRA LATERAL******************/
+@media (max-width:478px){
+    #BarraLateral{
+    
+        width: 50%;
+    
+    }
+
+}
+@media (max-width:938px){
+    #BarraLateral{
+    
+        height:400px;
+    
+    }
+
+}
+
+
+/******************RESPONSIVE PARA FOOTER******************/
+
+@media (max-width:862px){
+   #footer{
+       
+       position:absolute;
+       bottom:100px;
+       height:100px;
+   }
+
+}

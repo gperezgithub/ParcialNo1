@@ -1,0 +1,409 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+body{
+    background-image: url("estudiantes1final2.jpg");
+    
+}
+
+#cinta{
+    background-color: #5c6370;/*Buscar color bonito*/
+    padding-left:10px;
+    height:110px;
+    
+}
+
+#caratula{
+    margin-left:350px;
+    padding-left:40px;
+    font-size:12;
+    font-style: bold;
+    color:white;
+    opacity:.8;
+    font-family:calibri;
+}
+
+#logoUmg{
+    width:370px;
+    height:105px;
+    float:left;
+    border-right: 2px solid #fff;
+    
+    
+}
+
+/*************************TITULO ANIMADO******************/
+.tituloAnimado{
+    display:flex;
+    width:100%;
+    height:40px;
+    color:white;
+    font-size:40px;
+    line-height:40px;
+    margin-left:120px;
+    /*justify-content: center;*/
+    overflow:hidden;
+    margin-left:350px;
+    padding-left:40px;
+    position:absolute;
+    opacity:.8;
+    font-family:calibri;
+
+
+}
+
+.tituloAnimado>ul{
+    list-style:none;
+    padding-left:10px;
+    animation:cambiar 7s infinite;
+    color:white;
+}
+
+.tituloAnimado ul p{
+    margin:0;
+}
+
+@keyframes cambiar{
+    0%{margin-top:0%;    }
+    20%{margin-top:0; }
+    25%{margin-top:-40px; }
+    50%{margin-top:-40px; }
+    55%{margin-top:-80px; }
+    80%{margin-top:-80px; }  
+    100%{margin-top:0; }
+}
+
+
+/***************IMAGEN DEL MENU***********************/
+/*Imagen ícono del menu*/
+
+#botonMenu{
+    display:none;
+}
+
+#imagenMenu{
+    width:60px;
+    height:60px;
+}
+
+#iconoLabel{
+    display:none;
+    width:30px;
+    height:30px;
+    padding:5px;
+    
+}
+
+#iconoLabel:hover{
+    cursor:pointer;
+    background:rgba(0,0,0,0,0.2);
+}
+
+#iconoMenu{
+    width: 75px;
+    height:75px;
+}
+
+
+
+
+/***********************MENU********************************/
+
+.Menu{   
+    width:100%;   
+    background-color:#051126;
+    font-family:sans-serif, Helvetica,Arial;    
+    font-size: 17px;
+    box-shadow: 0px 4px 10px rgba(148, 231, 231, 0.986);
+    
+
+}
+
+
+
+
+.Menu ul{    
+    list-style:none;   
+    padding:0;
+    margin: 0 20px 0 0;
+    display:flex;
+    justify-content:center;
+    
+}
+
+.Menu >ul >li{
+   
+    display:block;
+    padding:20px;
+    border-left: 2px solid #fff;
+    transition:600ms;
+    border-right:2px solid #fff;
+    
+}
+
+.Menu >ul >li a{
+    display:block;
+    padding:23px 5 px;
+    /*padding-right:25px;*/
+    color: white;   
+    text-decoration:none;
+    
+}
+
+.Menu > ul > li:hover{
+    background-color: rgb(250,114,61,0.4);
+    box-shadow: 2px 3px 10px rgb(204, 43, 96);
+}
+
+
+/*******************BOTON*******************/
+a.whatsapp {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    color: initial;
+    padding-left:10px;
+    padding-right:10px;
+    padding-top:10px;
+    padding-bottom:10px;
+    background-color:rgb(0, 100, 0);
+    border-radius:10px;
+    margin-left:10px;
+    display:flex;
+    justify-content: center;
+    margin-right:10px;
+
+    font-size:25px;
+    font-family:calibri;
+} 
+a.facebook {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    color: initial;
+    padding-left:10px;
+    padding-right:10px;
+    padding-top:10px;
+    padding-bottom:10px;
+    background-color:rgb(49, 89, 219);
+    border-radius:10px;
+    margin-left:10px;
+    display:flex;
+    justify-content: center;
+    margin-right:10px;
+
+    font-size:25px;
+    font-family:calibri;
+}
+a.twitter {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    color: initial;
+    padding-left:10px;
+    padding-right:10px;
+    padding-top:10px;
+    padding-bottom:10px;
+    background-color:rgb(53, 209, 248);
+    border-radius:10px;
+    margin-left:10px;
+    display:flex;
+    justify-content: center;
+    margin-right:10px;
+
+    font-size:25px;
+    font-family:calibri;
+}
+a.youtube {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    color: initial;
+    padding-left:10px;
+    padding-right:10px;
+    padding-top:10px;
+    padding-bottom:10px;
+    background-color:rgba(233, 10, 10, 0.931);
+    border-radius:10px;
+    margin-left:10px;
+    display:flex;
+    justify-content: center;
+    margin-right:10px;
+
+    font-size:25px;
+    font-family:calibri;
+}
+a.instagram {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    color: initial;
+    padding-left:10px;
+    padding-right:10px;
+    padding-top:10px;
+    padding-bottom:10px;
+    background-color:rgba(243, 72, 243, 0.431);
+    border-radius:20px;
+    margin-left:10px;
+    display:flex;
+    justify-content: center;
+    margin-right:10px;
+
+    font-size:25px;
+    font-family:calibri;
+}
+
+
+#boton{
+    margin:0px;
+}
+
+/***********************CONTENEDOR***********************/
+
+#contenedor{
+    position:relative;
+}
+
+
+
+
+
+/************************+BARRA LATERAL***********************/
+#BarraLateral{
+    
+    width: 25%;
+    height:500px;  
+  
+  padding-top:10px;
+
+  background-color: #051126;
+  font-size: 0.65em;
+  
+  float:left;
+  position:absolute;
+ 
+ 
+
+}
+
+
+#BarraLateral >nav> ul{
+
+    margin-top:60px;
+    list-style:none;
+    display:block;
+}
+
+#BarraLateral>nav>ul>li{
+    width:100%;
+    height:50px;
+    border-bottom: 1px solid #323232;
+    overflow:hidden;
+}
+
+
+#BarraLateral>nav>ul>li >p>a{
+    color:white;
+    list-style:none;
+    font-size:1.4em;
+    font-style: helvetica neue;
+    font-weight: lighter;
+}
+
+#BarraLateral>nav>ul>li>div{
+    position: absolute;
+    height:50px;
+    width:300px;
+    color:#aaa;
+    opacity:.5;
+    -webkit-transition: width .2s;
+    -webkit-transition: width .2s;
+}
+
+#BarraLateral>nav>ul> li:hover{
+    width:300px;
+    color:#aaa;
+    transition: all .3s
+    
+}
+
+/*--------------------ARTICULO--------------------*/
+
+#articulo{
+    background-color: #4c3f77;
+    margin:5px 6px;
+    border-radius:20px;
+    font-size:7;
+    color:white;
+}
+
+
+/****************************SLIDER (FONDOS)****************************/
+
+.slider{
+    margin: auto;
+    overflow:hidden;
+    
+    
+    
+}
+
+.slider ul{
+    padding:0;
+    display:flex;
+   
+    width:400%;
+    height:500px;
+
+    animation:cambio 30s infinite;
+}
+
+.slider li{
+    list-style:none;
+   width:100%;
+}
+
+.slider img{
+    width:100%;
+}
+
+
+@keyframes cambio{
+    0%{ margin-left:0;}
+    20%{ margin-left:0;}
+
+    25%{ margin-left:-100%;}
+    45%{ margin-left:-100%;}
+
+    50%{ margin-left:-200%;}
+    70%{ margin-left:-200%;}
+
+    75%{margin-left:-300%;}
+    95%{margin-left:-300%;}
+}
+
+/***********************FOOTER**********************/
+#footer{
+    height: 50px; 
+    background:rgb(86, 97, 133);
+    width:100%; 
+    bottom:0; 
+    left:0; 
+    padding-bottom: 16px;  
+    clear:both;
+    border-radius:20px;
+  }
+  
+  

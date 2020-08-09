@@ -1,0 +1,65 @@
+/*Responsive para la imagen de la portada*/
+@media (max-width:1160px){
+    #Cabecera{        
+        background-image: url("portadafinal3.jpg");
+        opacity:.75;
+        height:460px;
+    }
+}
+
+/*Responsive para la imagen de la portada #2*/
+@media (max-width:986px){
+    #Cabecera{        
+        background-image: url("estudiantes4.jpg");
+        opacity:.75;
+        height:460px;
+    }
+}
+
+
+
+
+/*Responsive para el menú #1*/
+@media (max-width:986px){
+    #iconoLabel {
+        display:block;
+        margin-right:30px;
+        padding:5px;
+        
+    }
+
+    .Menu{
+        position: absolute;;
+        background: rgb(48, 56, 65);
+        width:320px;
+        margin-left:-320px;
+        margin-top:25px;
+        transition: all 0.5s;
+     
+        
+        
+    }
+
+    .Menu ul{  
+        flex-direction:column;
+    }
+
+    .Menu >ul>li{
+        border-top:1px solid #fff;
+    }
+
+    #botonMenu:checked ~ .Menu{
+        margin-left:0px;
+     
+      
+        margin-top:25px;
+        transition: all 0.5s;
+    }
+
+    #barraMenu{
+        background-color: rgb(48, 56, 65);
+        height:68px;
+    }
+
+}
+

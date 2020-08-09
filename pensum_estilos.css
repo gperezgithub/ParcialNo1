@@ -1,0 +1,171 @@
+
+body{
+    margin:0;
+    font-family:sans-serif;
+ 
+
+}
+
+a:link, a:visited, a:active {
+    text-decoration:none;
+  
+}
+
+
+#Cabecera > img{
+    width: 200px;
+    height: 200px;    
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 100px;    
+}
+
+
+
+#Cabecera{
+    
+    background-image: url("fondos/1.jpg");
+    opacity:.8;
+    height:300px;
+}
+
+/************TITULO Y KEYFRAME****************/
+
+#cintaTitulo{
+    background-color:black;
+    opacity:.7;
+}
+
+#titulo{
+    display:flex;
+    font-size:4em;
+    font-family: Calibri;
+    font-style: bold;
+    color:white;
+    justify-content:center;
+    text-decoration: bold;
+
+    animation-duration: 3s;
+  animation-name: slidein;
+}
+
+
+
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+
+
+  /**********************************SECCIONES E IMAGENES******************/
+
+  #imagen1{
+    width:90%;
+    padding-left:15px;
+    padding-right:10px;
+  }
+
+
+
+
+#seccion1{    
+ 
+    margin-bottom:20px;
+    
+}
+
+
+
+
+#seccion2{
+
+    margin-bottom:20px;
+
+
+}
+
+
+#BarraLateral{
+
+height:1000px;  
+  margin-top:0px;
+  padding-top:10px;
+  background-color:#051126;
+  
+  float:right;
+  width:23%;
+  margin-right:300px;
+
+  padding-left:10px;
+  padding-right:10px;
+  
+ 
+
+}
+
+#BarraLateral > ul{
+    font-size:12;
+    
+}
+
+#BarraLateral >ul>li{
+    color:#a4bcbc;
+    padding-top:10px;
+    font-family:calibri;
+    padding-right:10px;
+}
+
+
+#Contenedor{
+    
+    margin-left:10%; 
+    margin-top: 10px;   
+    width:30%;
+    height:1400px;
+    border-radius:20px;
+  
+    float:left;
+    padding-left:20px;
+    padding-right:20px;  
+ 
+    
+}
+
+
+
+
+
+
+#articulo{
+    border-color: aqua;
+    margin-left:5px;
+    margin-right:5px;
+    padding:5px;
+    font-size:1.2em;
+    height:65px;
+    border-radius:20px;
+    
+    
+}
+
+#footer{
+  height: 50px; 
+  background:rgb(86, 97, 133);
+  width:100%; 
+  bottom:0px; 
+  left:0; 
+  padding-bottom: 16px;  
+  clear:both;
+  border-radius:20px;
+  position:fixed;
+}
+
