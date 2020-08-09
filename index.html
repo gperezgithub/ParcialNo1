@@ -71,7 +71,7 @@
         <a href="https://www.youtube.com/user/umarianogalvez" class="youtube">YOUTUBE</a><br>
         <a href="https://www.instagram.com/explore/locations/277767901/guatemala/jutiapa-jutiapa/universidad-mariano-galvez-jutiapa/?hl=es" class="instagram">INSTAGRAN</a><br>
     
-        
+       
 
     </aside>
 
@@ -100,5 +100,34 @@
             </font>
        
     </footer>
+
+ <section id="seccion1"><br>
+        <div align=justify><br>
+            <h1><font color= black>API</h1>
+    <div id="elemen">
+       
+    </div>
+
+
+    <script>
+        const url ="https://pokeapi.co/api/v2/pokemon/1/";
+
+        fetch(url)
+            .then(response => response.json())
+            .then(data => {
+
+                let element = document.getElementById('elemen')
+                element.innerHTML= `
+                <p>${data.name}</p>
+                <p>${data.order}</p>
+                <img src= '${data.sprites.front_default}'/>
+                `
+
+
+                console.log(data)
+            })
+            .catch(err => console.log("Error al mostrar datos"))
+    </script>
+    
 </body>
 </html>
